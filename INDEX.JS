@@ -1,0 +1,9 @@
+const let { Client, GatewayIntentBits } = require('discord.js');
+const { token } = require('./config.json');
+const { REST } = require('@discordjs/rest');
+const { Routes } = require('discord-api-types/v9');
+const { readdirSync } = require('fs');
+const { join } = require('path');
+const { Client, GatewayIntentBits } = require('discord.js');
+const { token } = require('./config.json');
+const { REST } = require('@discordjs/rest');
